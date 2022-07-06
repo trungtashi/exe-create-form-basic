@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form đơn giản</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sở thích cá nhân -->
+        <form action="" method="get">
+            <h2 class="so_thich">Sở thích của bạn</h2>
+            <div class="form">
+                <!-- Họ tên -->
+                <label for="" class="text-blue">
+                    Họ và tên <input class="name" type="text" name="yourname">
+                </label> <br> <br>
+                <!-- Email -->
+                <label for="" class="text-blue">
+                    Email <input class="margin-left-email" type="text" name="email">
+                </label> <br> <br>
+                <!-- Sở thích -->
+                <label for="" class="text-blue"> Sở thích </label>
+                <label for="" class="text-orangered">
+                        <input  type="checkbox" name="hobby"> Thể thao
+                        <input  type="checkbox" name="hobby"> Âm nhạc
+                        <input  type="checkbox" name="hobby"> Đọc sách <br> <br>
+                        <input  class="margin-left" type="checkbox" name="hobby"> Lướt web
+                        <input  type="checkbox" name="hobby"> Chơi game
+                        <input  type="checkbox" name="hobby"> Điện ảnh <br> <br>
+                        <input  class="margin-left" type="checkbox" name="hobby"> Du lịch
+                </label> <br> <br>
+                <!-- Submit -->
+                <label for="" class="margin-left">
+                    <input type="submit" name="submit" id="" value="Gửi thông tin">
+                </label>
+                <!-- Reset -->
+                <label for="">
+                    <input type="reset" name="reset" id="" value="Nhập lại">
+                </label>
+            </div>
+        </form>
+        <!-- End sở thích cá nhân -->
+        <!-- Đăng ký học viên -->
+
+       <div class="register">
+            <form action="index.html" method="post">
+                <h2 class="text-blue">Đăng ký học viên</h2>
+                <table>
+                    <!-- Họ tên -->
+                    <tr>
+                        <td><p class="text-blue">Họ và tên</p></td>
+                        <td colspan="2">
+                        <label for="">
+                            <input class="name" type="text" name="name">
+                        </label>
+                        </td>
+                    </tr>
+                    <!-- Ngày sinh -->
+                    <tr>
+                        <td><p class="text-blue">Ngày sinh</p></td>
+                        <td colspan="2">
+                            <label for="">
+                                <input type="text" name="birthday">
+                            </label>
+                        </td>
+                    </tr>
+                    <!-- Giới tính -->
+                    <tr>
+                        <td><p class="text-blue">Giới tính</p></td>
+                        <td colspan="2">
+                            <label for="nam">
+                                <input type="radio" name="gioitinh" id="nam"> Nam
+                            </label>
+                            <label for="nu">
+                                <input type="radio" name="gioitinh" id="nu"> Nữ
+                            </label>
+                        </td>
+                    </tr>
+                    <!-- Địa chỉ -->
+                    <tr>
+                        <td><p class="text-blue">Địa chỉ</p></td>
+                        <td colspan="2">
+                        <textarea name="" id="" cols="30" rows="5"></textarea>
+                        </td>
+                    </tr>
+                    <!-- Lớp -->
+                    <tr>
+                        <td><p class="text-blue">Lớp</p></td>
+                        <td colspan="2">
+                            <select name="" id="">
+                                <option value="1">Chọn lớp</option>
+                                <option value="2">CodyGymJava</option>
+                                <option value="3">CodeGym</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <!-- Email -->
+                    <tr>
+                        <td><p class="text-blue">Email</p></td>
+                        <td colspan="2">
+                            <input type="text" name="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p class="text-blue">Điện thoại</p></td>
+                        <td colspan="2">
+                            <input type="number" name="phone">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td colspan="2">
+                            <input type="submit" name="submit" value="Đăng ký">
+                            <input type="reset" name="reset" value="Nhập lại">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+       </div>
+        <!-- End đăng ký học viên -->
+    </div>
+</body>
+</html>

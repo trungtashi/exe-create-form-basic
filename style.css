@@ -1,0 +1,47 @@
+.container{
+    width: 50%;
+    margin: 50px auto;
+}
+.so_thich{
+    background-color: #ff4c00;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.margin-left{
+    margin-left: 62px;
+}
+.name{
+    width: 250px;
+}
+.margin-left-email{
+    margin-left: 25px;
+}
+.form{
+    margin-left: 100px;
+}
+.text-blue{
+   color: #0b3afe;
+}
+.text-orangered{
+    color: #ff4c00;
+}
+.register{
+    
+    margin-top: 100px;
+    background-color: #fffda9;
+}
+.register h2{
+    margin-top: 10px;
+    background-color: #d4fdd6;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.register p{
+    padding: 0 10px;
+}
+.register input{
+    padding: 5px;
+}
